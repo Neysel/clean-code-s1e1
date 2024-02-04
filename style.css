@@ -20,7 +20,7 @@
 .main_page_element {
     display: block;
     width: 500px;
-    margin: 0 auto 0;
+    margin: 0 auto;
 }
 .task {
     width: 56%;
@@ -54,6 +54,7 @@
 .button:hover {
     color: #3a3A3a;
 }
+
 /* Heading */
 .h3,
 .label_new_task {
@@ -95,7 +96,6 @@
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
